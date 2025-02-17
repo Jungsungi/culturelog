@@ -2,8 +2,8 @@ package jsg.culturelog.controller;
 
 import jsg.culturelog.domain.Member;
 import jsg.culturelog.domain.dto.MemberDto;
-import jsg.culturelog.domain.form.MemberAddForm;
-import jsg.culturelog.domain.form.MemberEditForm;
+import jsg.culturelog.domain.form.member.MemberAddForm;
+import jsg.culturelog.domain.form.member.MemberEditForm;
 import jsg.culturelog.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

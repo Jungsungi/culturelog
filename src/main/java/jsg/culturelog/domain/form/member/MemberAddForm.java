@@ -1,15 +1,12 @@
-package jsg.culturelog.domain.form;
+package jsg.culturelog.domain.form.member;
 
 import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
-public class MemberEditForm {
-
-    @NotNull
-    private Long id;
+@Getter
+@Setter
+public class MemberAddForm {
     @NotEmpty
     private String userId;
     @NotEmpty
